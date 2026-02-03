@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@utility nav-theme{
+    @apply flex hover:text-white transition-all ease-in-out duration-300
+}
+@utility icon-space{
+    @apply pt-1 pr-1
+}
+@utility social-link{
+    @apply hover:text-blue-500 text-xl transition-all ease-in-out duration-300
+}
+@utility heading-title{
+    @apply pl-4 text-[25px] font-bold;
+}
+/*body{*/
+/*    background-color: #10172a;*/
+/*}*/
