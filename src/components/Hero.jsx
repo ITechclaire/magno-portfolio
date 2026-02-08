@@ -17,20 +17,18 @@ const Hero = () =>{
         <div className="w-5xl h-115 relative top-2 left-50 mt-2 justify-items-center text-center bg-gray-300 rounded-3xl">
             <div className="shadow-md w-lg absolute top-3 rounded-xl left-4 h-108 bg-white p-6">
                 <img className="shadow-xl h-65 rounded-full m-auto mt-2" src="/profile.jpg" alt="my pfp" />
-          <div className="mt-6">
-
-        <i>
-                <h3 className="text-center mb-5 font-bold">@claire_magno</h3>
-        </i>
-            <div className="flex gap-8 w-80 h-11 m-auto mt-1 p-2 justify-center rounded-full shadow-lg bg-gray-100">
-                <a className="social-link" title="Facebook" href="#"><FaFacebook /></a>
-                <a className="social-link" title="X/Twitter" href="#"><FaXTwitter /></a>
-                <a className="social-link" title="LinkedIn" href="#"><FaLinkedinIn /></a>
-                <a className="social-link" title="Github" href="#"><FaGithub /></a>
-                <a className="social-link" title="Instagram" href="#"><FaInstagram /></a>
-
-            </div>
-          </div>
+                   <div className="mt-6">
+                         <i>
+                            <h3 className="text-center mb-5 font-bold">@claire_magno</h3>
+                         </i>
+                        <div className="flex gap-8 w-80 h-11 m-auto mt-1 p-2 justify-center rounded-full shadow-lg bg-gray-100">
+                            <a className="social-link" title="Facebook" href="#"><FaFacebook /></a>
+                            <a className="social-link" title="X/Twitter" href="#"><FaXTwitter /></a>
+                            <a className="social-link" title="LinkedIn" href="#"><FaLinkedinIn /></a>
+                            <a className="social-link" title="Github" href="#"><FaGithub /></a>
+                            <a className="social-link" title="Instagram" href="#"><FaInstagram /></a>
+                        </div>
+                 </div>
             </div>
             <div className="w-lg absolute top-3 rounded-xl right-3 h-108 bg-white p-6">
                 <div className="flex mt-9">
